@@ -439,7 +439,6 @@ for cb in institution_cbs:
 print("  Institutions  : all checked")
 
 #to upload a doc file in the upload business documents
-#Please make sure that the path of the file is correct
 file_path = os.path.dirname(os.path.abspath(__file__)) + "/sample.doc"
 file_inputs = driver.find_elements(By.CSS_SELECTOR, 'input[type="file"]')
 if file_inputs:
