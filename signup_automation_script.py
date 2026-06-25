@@ -1,5 +1,6 @@
 import time
 from datetime import datetime
+import os
 import random
 
 
@@ -439,7 +440,7 @@ print("  Institutions  : all checked")
 
 #to upload a doc file in the upload business documents
 #Please make sure that the path of the file is correct
-file_path = "/home/kaushalendra/Vrit/sample.doc"
+file_path = os.path.dirname(os.path.abspath(__file__)) + "/sample.doc"
 file_inputs = driver.find_elements(By.CSS_SELECTOR, 'input[type="file"]')
 if file_inputs:
     driver.execute_script(
