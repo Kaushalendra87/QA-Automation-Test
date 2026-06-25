@@ -27,3 +27,7 @@ Step 3 : Install Dependencies
 Step 3 : Run the Script using
 
          python signup_automation_script.py
+
+         If any error occurs
+         Please visit the line 442 of signup_automation_script.py
+         and change the file path as required to complete the automation.
